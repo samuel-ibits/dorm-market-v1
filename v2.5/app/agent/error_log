@@ -1,0 +1,69 @@
+[28-Jul-2022 16:52:54 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function listener() in /home/dormcomn/public_html/v2.5/app/agent/index.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 50
+[28-Jul-2022 16:55:33 Africa/Lagos] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 44
+[28-Jul-2022 16:55:33 Africa/Lagos] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 44
+[28-Jul-2022 16:55:33 Africa/Lagos] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 44
+[28-Jul-2022 16:55:33 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dormcomn/public_html/v2.5/app/agent/index.php:50
+Stack trace:
+#0 /home/dormcomn/public_html/v2.5/app/agent/index.php(139): listener('user2103561896')
+#1 {main}
+  thrown in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 50
+[28-Jul-2022 16:56:00 Africa/Lagos] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 44
+[28-Jul-2022 16:56:00 Africa/Lagos] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 44
+[28-Jul-2022 16:56:00 Africa/Lagos] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 44
+[28-Jul-2022 16:56:00 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dormcomn/public_html/v2.5/app/agent/index.php:50
+Stack trace:
+#0 /home/dormcomn/public_html/v2.5/app/agent/index.php(139): listener('user2103561896')
+#1 {main}
+  thrown in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 50
+[29-Jul-2022 08:52:32 Africa/Lagos] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 44
+[29-Jul-2022 08:52:32 Africa/Lagos] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 44
+[29-Jul-2022 08:52:32 Africa/Lagos] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 44
+[29-Jul-2022 08:52:32 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dormcomn/public_html/v2.5/app/agent/index.php:50
+Stack trace:
+#0 /home/dormcomn/public_html/v2.5/app/agent/index.php(139): listener('user2103561896')
+#1 {main}
+  thrown in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 50
+[29-Jul-2022 08:54:29 Africa/Lagos] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 26
+[29-Jul-2022 08:54:29 Africa/Lagos] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 26
+[29-Jul-2022 08:54:29 Africa/Lagos] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 26
+[29-Jul-2022 08:54:29 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dormcomn/public_html/v2.5/app/agent/index.php:35
+Stack trace:
+#0 /home/dormcomn/public_html/v2.5/app/agent/index.php(142): generatetoken('user2103561896')
+#1 {main}
+  thrown in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 35
+[29-Jul-2022 08:54:41 Africa/Lagos] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 26
+[29-Jul-2022 08:54:41 Africa/Lagos] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 26
+[29-Jul-2022 08:54:41 Africa/Lagos] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 26
+[29-Jul-2022 08:54:41 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dormcomn/public_html/v2.5/app/agent/index.php:35
+Stack trace:
+#0 /home/dormcomn/public_html/v2.5/app/agent/index.php(142): generatetoken('user2103561896')
+#1 {main}
+  thrown in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 35
+[29-Jul-2022 08:55:13 Africa/Lagos] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 26
+[29-Jul-2022 08:55:13 Africa/Lagos] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 26
+[29-Jul-2022 08:55:13 Africa/Lagos] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 26
+[29-Jul-2022 08:55:13 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dormcomn/public_html/v2.5/app/agent/index.php:35
+Stack trace:
+#0 /home/dormcomn/public_html/v2.5/app/agent/index.php(142): generatetoken('user2103561896')
+#1 {main}
+  thrown in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 35
+[29-Jul-2022 10:23:02 Africa/Lagos] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 282
+[29-Jul-2022 10:25:35 Africa/Lagos] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 282
+[29-Jul-2022 10:33:52 Africa/Lagos] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 282
+[29-Jul-2022 10:34:49 Africa/Lagos] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 282
+[29-Jul-2022 10:49:56 Africa/Lagos] PHP Warning:  mysqli::query(): Empty query in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 212
+[29-Jul-2022 17:16:46 Africa/Lagos] PHP Warning:  move_uploaded_file(../../media/profiles/agent/Capture.JPG): failed to open stream: No such file or directory in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 263
+[29-Jul-2022 17:16:46 Africa/Lagos] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpBuTZXP' to '../../media/profiles/agent/Capture.JPG' in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 263
+[30-Jul-2022 08:14:36 Africa/Lagos] PHP Warning:  mysqli::query(): Empty query in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 212
+[30-Jul-2022 08:20:06 Africa/Lagos] PHP Warning:  mysqli::query(): Empty query in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 212
+[30-Jul-2022 08:53:19 Africa/Lagos] PHP Warning:  mysqli::query(): Empty query in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 212
+[30-Jul-2022 08:54:56 Africa/Lagos] PHP Warning:  mysqli::query(): Empty query in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 212
+[30-Aug-2022 22:10:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dormcomn/public_html/v2.5/app/agent/index.php:19) in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 37
+[30-Aug-2022 22:10:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dormcomn/public_html/v2.5/app/agent/index.php:19) in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 149
+[30-Aug-2022 22:12:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dormcomn/public_html/v2.5/app/agent/index.php:19) in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 37
+[02-Sep-2022 15:54:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dormcomn/public_html/v2.5/app/agent/index.php:19) in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 37
+[03-Sep-2022 10:46:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dormcomn/public_html/v2.5/app/agent/index.php:19) in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 37
+[06-Sep-2022 06:38:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dormcomn/public_html/v2.5/app/agent/index.php:19) in /home/dormcomn/public_html/v2.5/app/agent/index.php on line 37
