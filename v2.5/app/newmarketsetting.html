@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="./css/newmarket.css" />
+  </head>
+
+  <body>
+
+    <div id="professionalModal" class="professional-modal">
+        <div class="professional-modal-content">
+          <span class="professional-modal-close" onclick="closeModal('professionalModal')">&times;</span>
+          <p class="orange-header">Name</p>
+          <form class="professional-modal-form">
+          
+            <input type="text" id="firstName" placeholder="first name" required>
+            <input type="text" id="lastName" placeholder="last name" required>
+            <button onclick="submitForm()">Submit</button>
+          </form>
+        </div>
+      </div>
+    <header class="dark-header">
+      <div class="header-text" onclick="moveToAnotherPage()">
+        <p><i class="bi bi-arrow-left"></i> Setting</p>
+      </div>
+    </header>
+
+    <div class="setting-body">
+      <div>
+        <div class="setting-section-one">
+          <ul>
+            <li>Photo</li>
+            <li><img src="./images/great (2).png" alt=""   onclick="openModal('professionalModal')"/></li>
+          </ul>
+          <ul>
+            <li>Name</li>
+            <li>Great Ibitoye</li>
+          </ul>
+          <ul>
+            <li >Level</li>
+            <li>200L</li>
+          </ul>
+          <ul>
+            <li>Email</li>
+            <li>ibitoye222@gmail</li>
+          </ul>
+          <ul>
+            <li>School</li>
+            <li>Federal university Lokoja</li>
+          </ul>
+        </div>
+
+        <div class="setting-section-one">
+          <ul>
+            <li>Photo</li>
+            <li><img src="./images/great (2).png" alt="" /></li>
+          </ul>
+          <ul>
+            <li>Name</li>
+            <li>Great Ibitoye</li>
+          </ul>
+          <ul>
+            <li>Level</li>
+            <li>200L</li>
+          </ul>
+          <ul>
+            <li>School</li>
+            <li>Federal university Lokoja</li>
+          </ul>
+        </div>
+      </div>
+
+      <button class="orange-bg big-btn"  onclick="openModal('professionalModal')">
+        <i class="bi bi-cloud-arrow-up-fill"></i>
+        Upload
+      </button>
+    </div>
+
+    <script src="js/newmarket.js"></script>
+    <script>
+        function openModal(modalId) {
+          var modal = document.getElementById(modalId);
+          modal.style.display = "block";
+        }
+      
+        function closeModal(modalId) {
+          var modal = document.getElementById(modalId);
+          modal.style.display = "none";
+        }
+      
+        function submitForm() {
+          var firstName = document.getElementById("firstName").value;
+          var lastName = document.getElementById("lastName").value;
+          // You can perform further actions with the collected data
+          console.log("First Name:", firstName);
+          console.log("Last Name:", lastName);
+          closeModal('professionalModal');
+        }
+
+            
+    function moveToAnotherPage() {
+      window.location.href = "newmarket.html"; // Replace with your desired URL
+    }
+      </script>
+  </body>
+</html>

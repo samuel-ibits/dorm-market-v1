@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/newmarket.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/maarkt logo.png" alt="App Logo" />
+      </div>
+      <div class="options">
+        <ul class="flex gap-3 margin--1">
+          <li><i class="bi bi-gear-fill" id="menu-icon"></i></li>
+          <li><i class="bi bi-box-arrow-left"></i></li>
+        </ul>
+        <div class="dropdown" id="dropdown">
+          <ul>
+            <li>
+                <a href="./newmarketdashboard.html"
+                  ><i class="bi bi-speedometer"></i> Dashboard</a
+                >
+              </li>
+            <li>
+              <a href="./newmarketsetting.html"
+                ><i class="bi bi-gear-fill"></i> Setting</a
+              >
+            </li>
+            <li>
+              <a href=""><i class="bi bi-box-arrow-left"></i> Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div id="myComplexModal" class="profile-modal">
+      <div class="back-from-inspect">
+        <button
+          id="hide-inspect"
+          class="btn-no-btn"
+          onclick="closeModal('myComplexModal')"
+        >
+          <i class="bi bi-chevron-left"></i>
+        </button>
+      </div>
+      <p class="heading">Sell an item</p>
+
+      <form action="">
+        <div class="input-component-one">
+          <p>Name of product</p>
+          <input type="" name="" value="" />
+        </div>
+        <div class="input-component-one">
+          <p>Price of Products</p>
+          <input type="" name="" value="" />
+        </div>
+        <div class="input-component-one">
+          <p>Units available</p>
+          <input type="" name="" value="" />
+        </div>
+        <div class="input-component-one">
+          <p>Product description (optional)</p>
+          <textarea> </textarea>
+        </div>
+        <div class="input-component-one">
+          <p>Location</p>
+          <input type="" name="" value="" />
+        </div>
+        <div class="input-component-one">
+          <select name="" id="">
+            <option value=""><p>Categoties</p></option>
+            <option value=""><p>Fashion</p></option>
+            <option value=""><p>Tech</p></option>
+            <option value=""><p>Food</p></option>
+          </select>
+        </div>
+
+        <button class="orange-bg big-btn">
+          <i class="bi bi-cloud-arrow-up-fill"></i>
+          Upload
+        </button>
+      </form>
+    </div>
+    <div class="profile-body">
+      <div class="profile-section-one">
+        <img src="./images/great (2).png" alt="" />
+        <ul>
+          <li>Great Ibitoye</li>
+          <li>Social studies Education</li>
+          <li>200L</li>
+        </ul>
+      </div>
+      <div class="component-type-one orange-bg">
+        <ul>
+          <li>Wallet</li>
+          <li>N <span>100000</span></li>
+        </ul>
+
+        <i class="bi bi-eye-fill"></i>
+      </div>
+      <div class="profile-section-two">
+        <ul>
+          <li>
+            <img src="./images/Vector (4).png" alt="" class="small-icon" />
+
+            <span>Invite Friend</span>
+          </li>
+          <li>
+            <img src="./images/Vector (5).png" alt="" class="small-icon" />
+
+            <span>Feedback</span>
+          </li>
+          <li>
+            <img src="./images/Vector (6).png" alt="" class="small-icon" />
+
+            <span>Dashboard</span>
+          </li>
+        </ul>
+      </div>
+
+      <div
+        class="component-type-one black-bg"
+        onclick="toggleModal('myComplexModal')"
+      >
+        <div class="flex gap-1 big-font">
+          <i class="bi bi-shop"></i>
+          <p>Sell an item</p>
+        </div>
+
+        <i class="bi bi-chevron-right"></i>
+      </div>
+      <div class="container">
+        <div class="text-container">
+          <div class="text active" onclick="toggleScroller('orders')">
+            My Orders
+          </div>
+          <div class="text" onclick="toggleScroller('products')">
+            My Products
+          </div>
+        </div>
+        <div class="scroller active" id="ordersScroller">
+          <div class="product-card">
+            <img
+              src="images/product.png"
+              alt="Product 1"
+              class="product-image"
+            />
+            <div class="product-details">
+              <p>Brown Skin Birkenstock</p>
+              <h3>N10,000</h3>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="images/product.png"
+              alt="Product 1"
+              class="product-image"
+            />
+            <div class="product-details">
+              <p>Brown Skin Birkenstock</p>
+              <h3>N10,000</h3>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="images/product.png"
+              alt="Product 1"
+              class="product-image"
+            />
+            <div class="product-details">
+              <p>Brown Skin Birkenstock</p>
+              <h3>N10,000</h3>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="images/product.png"
+              alt="Product 1"
+              class="product-image"
+            />
+            <div class="product-details">
+              <p>Brown Skin Birkenstock</p>
+              <h3>N10,000</h3>
+            </div>
+          </div>
+        </div>
+        <div class="scroller" id="productsScroller">
+          <div class="product-card">
+            <img
+              src="images/product.png"
+              alt="Product 1"
+              class="product-image"
+            />
+            <div class="product-details">
+              <p>Brown Skin Birkenstock</p>
+              <h3>N10,000</h3>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="images/product.png"
+              alt="Product 1"
+              class="product-image"
+            />
+            <div class="product-details">
+              <p>Brown Skin Birkenstock</p>
+              <h3>N10,000</h3>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="images/product.png"
+              alt="Product 1"
+              class="product-image"
+            />
+            <div class="product-details">
+              <p>Brown Skin Birkenstock</p>
+              <h3>N10,000</h3>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="images/product.png"
+              alt="Product 1"
+              class="product-image"
+            />
+            <div class="product-details">
+              <p>Brown Skin Birkenstock</p>
+              <h3>N10,000</h3>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="images/product.png"
+              alt="Product 1"
+              class="product-image"
+            />
+            <div class="product-details">
+              <p>Brown Skin Birkenstock</p>
+              <h3>N10,000</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-tab-bar-holder">
+      <ul>
+        <li>
+          <a href="./newmarket.html">
+            <i class="bi bi-house-door-fill"></i>
+            <p>Home</p>
+          </a>
+        </li>
+        <li>
+          <a href="newprofile.html" class="active-menu">
+            <i class="bi bi-person-fill"></i>
+            <p>Account</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <script src="js/newmarket.js"></script>
+    <script>
+      function toggleScroller(scrollerId) {
+        var ordersScroller = document.getElementById("ordersScroller");
+        var productsScroller = document.getElementById("productsScroller");
+        var ordersText = document.querySelector(".text:nth-child(1)");
+        var productsText = document.querySelector(".text:nth-child(2)");
+
+        if (scrollerId === "orders") {
+          ordersScroller.classList.add("active");
+          productsScroller.classList.remove("active");
+          ordersText.classList.add("active");
+          productsText.classList.remove("active");
+        } else if (scrollerId === "products") {
+          ordersScroller.classList.remove("active");
+          productsScroller.classList.add("active");
+          ordersText.classList.remove("active");
+          productsText.classList.add("active");
+        }
+      }
+
+      function toggleModal(modalId) {
+        var modal = document.getElementById(modalId);
+        modal.style.display =
+          modal.style.display === "block" ? "none" : "block";
+      }
+
+      function closeModal(modalId) {
+        var modal = document.getElementById(modalId);
+        modal.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
